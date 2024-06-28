@@ -1,0 +1,50 @@
+@import url(./Reset.css);
+body {
+    font-family: sans-serif;
+    background: #8c52ff;
+}
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.game_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+}
+.game_status{
+    margin: 30px 0;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #8c52ff;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+button.hover{
+    transition: .3s;
+    background: pink;
+}
