@@ -1,4 +1,27 @@
-@import url(./Reset.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1340px;
+    margin: auto;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 body {
     font-family: sans-serif;
     background: #8c52ff;
